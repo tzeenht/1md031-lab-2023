@@ -1,0 +1,69 @@
+/* Your comment goes here */
+body {
+    font-family: "Bodoni MT";
+    color: blueviolet;
+    .vikt {
+        font-weight: bold;
+        color: blueviolet;
+    }
+    .bröd {
+        font-weight: bold;
+        color: mediumvioletred;
+    }
+    #burgersection {
+        color: white;
+        background-color: black;
+        margin: 10px;
+        padding-left: 20px;
+        padding-right: 20px; 
+        padding-top: 10px; 
+        padding-bottom: 1px;
+        border: 7px dashed blueviolet;
+    }
+    #customersection {
+        margin: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 1px;
+        padding-bottom: 10px;
+        border: 7px dashed blueviolet;
+    }
+   
+}
+button:hover {
+    background-color: blueviolet;
+    cursor: wait;
+}
+#buybutton {
+    margin: 10px;
+}
+
+div * {
+    margin-left: 10px;
+    margin-top: 1px;
+}
+#header1 {
+    margin: 10px;
+    height: 100px;
+    overflow:hidden
+}
+
+
+#headerpic {
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+}
+
+#he1 {
+    position: absolute;
+    margin: 10px;
+    margin-top: -820px;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 200px 200px 200px;
+    
+}
+
