@@ -1,55 +1,64 @@
 <!DOCTYPE HTML>
 <html lang="en">
    <head>
-    <title> BURGERSTORE AB </title>
+    <title> BURGERSTATION AB </title>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
    </head>
 <body>
+    <section id="header1">
     <header>
-        <h1>
-            Välkommen till BURGERSTORE AB
+        <img id="headerpic" src="https://tipbuzz.com/wp-content/uploads/Grilled-Burgers-thumbnail.jpg">
+        <h1 id="he1">
+            Välkommen till BURGERSTATION AB
         </h1>
-        <p> om en ska damma alla ska damma</p>
+        
+       
     </header>
-
+    </section>
     <main> 
-        <nav> MENU ITEMS </nav>
-        <section>
+        <section id="burgersection">
+            <nav> MENU ITEMS </nav>
             <h3> SELECT BURGER </h3>
                 <p> what burger do you want?</p>
-        <div style="display: inline-block">
-            <h4> dubbeltrubbel </h4>
+    <div class="wrapper">
+        <div class="box a">
+            <h4> Dubbeltrubbel </h4>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiGh7FQlRgqiY7YMxMQFp58bHCOlj2w2wdBQ&usqp=CAU" alt="Span" title="test" style="width: 200px">
                 <ul>
-                    <li> dubbelpuck </li>
-                    <li> 90g+90g </li>
-                    <li> skön sås </li>
-                    <li> pommes </li>
+                    <li> Dubbelpuck </li>
+                    <section class="vikt">
+                        <li> 90g+90g </li>
+                    </section>
+                    <li> Skön sås </li>
+                    <li> Pommes </li>
                 </ul>
         </div>
-        <div style="display: inline-block">
-            <h4> burger-sandwich </h4>
+        <div class="box b">
+            <h4> Burger-sandwich </h4>
             <img src="https://i0.wp.com/media.zeinaskitchen.se/2021/02/smashed-burgare-20.jpg?resize=1324%2C1500&ssl=1" alt="Span" title="test" style="width: 200px">
                 <ul>
-                    <li> no bread </li>
-                    <li> you broke </li>
+                    <section class="bröd">
+                        <li> Inget bröd </li>
+                    </section>
+                    <li> Ekonomiskt alternativ </li>
                     <li> haha </li>
-                    <li> -----</li>
                 </ul>
         </div>
-        <div style="display: inline-block">
-            <h4> half eaten </h4>
+        <div class="box c">
+            <h4> Halv-äten </h4>
             <img src="https://previews.123rf.com/images/dheeraj11/dheeraj111507/dheeraj11150700009/42134893-half-eaten-burger.jpg" alt="Span" title="test" style="width: 200px">
                 <ul>
-                    <li> pre-eaten burger </li>
-                    <li> if you are not very hungry </li>
-                    <li> no kethcup </li>
+                    <li> Halv-äten burgare </li>
+                    <li> För den som inte är så hungrig </li>
+                    <li> Ingen ketchup </li>
                     <li> text3 </li>
                 </ul>
         </div>
+    </div>
         </section>
         
-        <section>
+        <section id="customersection">
         <h3> CUSTOMER INFORMATION </h3>
         <p> enter your banknumber here</p>
         <p>
@@ -65,16 +74,16 @@
             <input type="text" id="Email" name="em" required="required" placeholder="E-mail address">
         </p>
         <p>
-            <label for="Creditcard">
-                Credit card number:
+            <label for="Street">
+                Street:
             </label><br>
-            <input type="text" id="Creditcard" name="cc" required="required" placeholder="1234 **** **** ****">
+            <input type="text" id="Street" name="st" required="required" placeholder="Address">
         </p>
         <p>
-            <label for="CVC">
-                CVC:
+            <label for="HOUSENUM">
+                House number:
             </label><br>
-            <input type="text" id="CVC" name="cvc" required="required" placeholder="123">
+            <input type="number" id="HOUSENUM" name="hn" required="required" placeholder="123">
         </p>
         <p>
             <label for="recipient">Payment method</label><be>
@@ -111,7 +120,7 @@
             <input type="radio" id="gender" name="gr" checked="checked" value="undisclosed">
         </p>
         </section>
-        <button type="submit">
+        <button type="submit" id="buybutton">
             <img src="https://img.fruugo.com/product/6/86/618064866_max.jpg" style="width: 30px">
             PURCHASE 
           </button>
