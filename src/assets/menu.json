@@ -1,0 +1,24 @@
+[
+    {
+      "name": "Doubletrouble",
+      "kCal": 300,
+      "containsLactose": true,
+      "containsGluten": false,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiGh7FQlRgqiY7YMxMQFp58bHCOlj2w2wdBQ&usqp=CAU"
+    },
+    {
+        "name": "Burger Sandwich",
+        "kCal": 400,
+        "containsLactose": true,
+        "containsGluten": true,
+        "imageURL": "https://i0.wp.com/media.zeinaskitchen.se/2021/02/smashed-burgare-20.jpg?resize=1324%2C1500&ssl=1"
+      },
+      {
+        "name": "Burger Sandwich DELUXE",
+        "kCal": 500,
+        "containsLactose": false,
+        "containsGluten": false,
+        "imageURL": "https://i0.wp.com/media.zeinaskitchen.se/2021/02/smashed-burgare-20.jpg?resize=1324%2C1500&ssl=1"
+      }
+  ]
+  
